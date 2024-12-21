@@ -9,6 +9,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.nlwpocket.data.model.domain.NearbyMarket
+import com.example.nlwpocket.data.model.mock.mockMarkets
 import com.example.nlwpocket.ui.theme.Typography
 
 @Composable
@@ -33,7 +34,7 @@ fun NearbyMarketCardList(modifier : Modifier = Modifier, markets : List<NearbyMa
 @Composable
 private fun NearbyMarketCardListPreview() {
     NearbyMarketCardList(
-        markets = null,
+        markets = mockMarkets,
         onMarketClick = {}
     )
 }

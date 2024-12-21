@@ -12,6 +12,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nlwpocket.data.model.domain.NearbyRule
 import com.example.nlwpocket.data.model.mock.mockMarkets
+import com.example.nlwpocket.data.model.mock.mockRules
 import com.example.nlwpocket.ui.theme.Gray400
 import com.example.nlwpocket.ui.theme.Gray500
 import com.example.nlwpocket.ui.theme.Typography
